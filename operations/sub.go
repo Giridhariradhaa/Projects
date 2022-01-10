@@ -28,8 +28,8 @@ func Subint16(){
 
 func Subint32(){
 
-	var trine int32 = -6598485
-	var university int32 = -6589423 //result printed is (-9062) but that is incorrect when you actually do -6598485 -6589423
+	var trine int32 = -65985
+	var university int32 = -65423 //result printed is (-9062) but that is incorrect when you actually do -6598485 -6589423
 	fmt.Println(trine - university)
 }
 

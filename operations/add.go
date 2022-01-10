@@ -84,8 +84,8 @@ func AddUint8(){
 func AddUint16(){
 
 	var a uint16
-	a = 12698
-	var b uint16 = 23548
+	a = 1981
+	var b uint16 = 2481
 
 	fmt.Println (a + b)
 
@@ -101,8 +101,8 @@ func AddUint32(){
 
 func AddUint64(){
 
-	var radha int64 = 13365478
-	var shannu int64 = -1256 //minus value works in Uint64. Why???
+	var radha int64 = 138
+	var shannu int64 = -16 
 
 	fmt.Println(radha + shannu)
 }
