@@ -19,8 +19,11 @@ var surya float64 = 221.8 //package variable
 
 func Add(){
 
-	var a int = 5
-var b int = 10
+//	var a int = 125   This a+b give the value of 135 which is outside the range. Hence this is not a correct answer. We have to declare the value of a variable in the way where the output of it, will be within the range of that particular data type. For example from -128 to 127 for int8.
+//var b int = 10
+
+var a int = 110
+var b int = 15
 
 	fmt.Println(a + b)
 }
